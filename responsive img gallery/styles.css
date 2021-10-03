@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Vampiro One", cursive;
+  background-color: blanchedalmond;
+}
+
+header {
+  text-align: center;
+}
+
+header p {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: larger;
+}
+
+img,
+.img {
+  width: 15rem;
+  height: 20rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.gallery div img {
+  padding: 3px 1px;
+}
+
+.img:hover {
+  transform: scale(1.2, 1.2);
+  box-shadow: 0 0 50px #277da1;
+}
