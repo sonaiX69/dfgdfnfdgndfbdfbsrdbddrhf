@@ -1,12 +1,13 @@
-# dfgdfnfdgndfbdfbsrdbddrhf
 
-asdfgh fghjkl wsdfghjkl wsedghjk
+# Styling Tricks
 
-asdfvb wreeeeeeeeg qw3rqwe rqcwrawef wefwef
+hellooooo guysssss!! i have made this repo just for U guys to contribute and its beginner friendly.
 
-sdcfsdf srgsrgerg wrgwergwergwe4 wefwefwef wefwefwefwef
+only thing what U have to do to get a PR is add cool and awesome css/bootstrap/Material-Ui tricks in this repo
 
-dzfsdg ergergh luilyujrt wrgwe rtertg 
+and tag the screenshot of the style in the PR comment, its that easy 
+
+don't spam in this repo fr god sake✌️😄
 
 ## rsgd therhehe
 
