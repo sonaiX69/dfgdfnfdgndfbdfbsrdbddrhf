@@ -1,0 +1,112 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+:root {
+  --Purple: #8a2be2;
+  --Crimson: #ff2079;
+  --Green: #01ffc3;
+  --Sky: #01ffff;
+  --Yellow: rgba(253, 187, 45, 1);
+}
+
+.main {
+  background-image: url(./img/Among\ Us\ Neon\ Style\ Desktop\ [1920x1080].png);
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  color: azure;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: large;
+  letter-spacing: 0.35rem;
+  padding: 2rem;
+  border: 4px solid white;
+  border-radius: 0.8rem;
+  margin: 1rem;
+  position: absolute;
+  bottom: 0;
+  animation: border__color 1s infinite;
+}
+/* .btn:hover {
+  animation: border__hover 10s ease-in infinite;
+} */
+/* @keyframes background__color {
+
+} */
+
+@keyframes border__color {
+  0% {
+    color: var(--Purple);
+    border: 4px solid var(--Purple);
+    box-shadow: 0 0 50px var(--Purple);
+  }
+  25% {
+    color: var(--Sky);
+    border: 4px solid var(--Sky);
+    box-shadow: 0 0 50px var(--Sky);
+  }
+  50% {
+    color: var(--Green);
+    border: 4px solid var(--Green);
+    box-shadow: 0 0 50px var(--Green);
+  }
+  75% {
+    color: var(--Yellow);
+    border: 4px solid var(--Yellow);
+    box-shadow: 0 0 50px var(--Yellow);
+  }
+  100% {
+    color: var(--Crimson);
+    border: 4px solid var(--Crimson);
+    box-shadow: 0 0 50px var(--Crimson);
+  }
+}
+
+@keyframes border__hover {
+  0% {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(204, 76, 153, 1) 78%,
+      rgba(193, 77, 161, 1) 80%,
+      rgba(235, 72, 132, 1) 91%,
+      rgba(246, 71, 124, 1) 97%,
+      rgba(252, 70, 120, 1) 100%
+    );
+    border: 4px solid var(--Purple);
+    box-shadow: 0 0 50px var(--Purple);
+  }
+  25% {
+    color: var(--Sky);
+    border: 4px solid var(--Sky);
+    box-shadow: 0 0 50px var(--Sky);
+  }
+  50% {
+    color: var(--Green);
+    border: 4px solid var(--Green);
+    box-shadow: 0 0 50px var(--Green);
+  }
+  75% {
+    color: var(--Yellow);
+    border: 4px solid var(--Yellow);
+    box-shadow: 0 0 50px var(--Yellow);
+  }
+  100% {
+    color: var(--Red);
+    border: 4px solid var(--Red);
+    box-shadow: 0 0 50px var(--Red);
+  }
+}
